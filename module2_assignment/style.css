@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+	font-family: monospace;
+	margin: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
+section {
+	position: relative;
+	border: 1px solid black;
+	font-family: monospace;
+	background-color: #A28089;
+	font-size: 14px;
+}
+
+p{
+	padding: 0em 0.5em 0em 0.5em;
+}
+
+#Chicken {
+	border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 75%;
+	padding: 5px;
+	background-color: #51E2F5;
+}
+
+#Bacon{
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left:75%;
+	padding: 5px;
+	background-color: #8458B3;
+}
+
+#Lobster{
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 75%;
+	background-color: #9DF9EF;
+	padding: 5px;
+}
+
+/* Responsive Design*/
+
+.row {
+  width: 100%;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	padding-top: 10px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-6 {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        padding-top: 10px;
+	} 
+.col-md-12 {
+        float: left;
+        width: 100%;
+        padding: 10px;
+        padding-top: 10px;
+	}
+}
+
+
+@media (max-width: 768px) {
+.col-sd-12 {
+        float: left;
+        width: 100%;
+        padding-top: 10px;
+    }
+}
