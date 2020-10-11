@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+body {
+	background-color: #F7D1DE;
+
+}
+
+section > p {
+	text-align: left;
+	padding: 10px 20px 10px 20px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color: #A28089;
+	width: 100%;
+	height: auto;
+	font-family: monospace;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken{
+	border: 1px solid black;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 150%;
+	margin-bottom: 10px;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #C1E4FF;
+}
+
+#beef{
+	border: 1px solid black;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 150%;
+	margin-bottom: 10px;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #8458B3;
+}
+
+#sushi{
+	border: 1px solid black;
+	text-align: center;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 150%;
+	margin-bottom: 10px;
+	margin-top: 0;
+	background-color: #FFAD57;
+	padding: 5px;
+}
+
+#chicken-div {
+	text-align: center;
+ 	margin-bottom: 10px;
+ 	margin-top: 10px;
+}
+
+#beef-div {
+	text-align: center;
+	margin-bottom: 10px;
+ 	margin-top: 10px;
+}
+
+#sushi-div {
+	text-align: center;
+ 	margin-bottom: 10px;
+ 	margin-top: 10px;
+}
+
+.navbar-brand{
+ 	font-size: 2em;
+ 	border: 0 0 10px 10px;
+ 	color: #FFFFFF;
+}
+
+#header-nav {
+ 	border: 0;
+ 	background-color: #5F4CD2;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+ 	border: 1px solid lightblue;
+}
+.navbar-header button.navbar-toggle {
+ 	clear: both;
+ 	margin-top: -50px;
+}
+
+.nav-header {
+ 	background-color: #5F4CD2;
+}
+
+.nav-brand {
+	color: black;
+ 	font-size: 1.75em;
+}
+
+#nav-list {
+	text-align: center;
+ 	color: black;
+ 	font-size: 120%;
+}
+
+hr {
+ 	border-color: black;
+}
+
+.food {
+ 	color: black;
+ 	font-size: 1.5em;
+}
