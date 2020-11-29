@@ -1,2 +1,1 @@
-# Coursera-test1
-First coursera website
+#MINI-Projects on JavaScript only
